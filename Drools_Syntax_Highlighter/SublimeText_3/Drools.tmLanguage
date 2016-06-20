@@ -67,21 +67,22 @@
 			<string>comment.line.double-slash.source.drools</string>
 		</dict>
 		<dict>
+			<key>begin</key>
+			<string>/\*</string>
+			<key>comment</key>
+			<string>Multi line comment</string>
+			<key>end</key>
+			<string>\*/</string>
+			<key>name</key>
+			<string>comment.line.double-slash.source.drools</string>
+		</dict>
+		<dict>
 			<key>comment</key>
 			<string>Double quote strings</string>
 			<key>match</key>
 			<string>(").*(")</string>
 			<key>name</key>
 			<string>string.quoted.double.source.drools</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>Multi line comment</string>
-			<key>match</key>
-			<string>(\/)(\*)((\
-)*(.*)$)*(\*)(\/)</string>
-			<key>name</key>
-			<string>invalid.deprecated.source.drools</string>
 		</dict>
 		<dict>
 			<key>comment</key>
