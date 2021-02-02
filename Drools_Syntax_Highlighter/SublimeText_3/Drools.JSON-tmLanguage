@@ -53,7 +53,7 @@
 			"comment": "Multi line comment"
 		},
 		{
-			"match": "(\").*(\")",
+			"match": "(\")[^\"]*(\")",
 			"name": "string.quoted.double.source.drools",
 			"comment": "Double quote strings"
 		},
